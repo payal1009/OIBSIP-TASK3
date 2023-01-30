@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contact="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p class="heading">Temperature Converter</p>
+    <div class="main">
+        <div class="input">
+            <select id="myList1">
+                <option> ---Input Temperature Format--- </option>
+                <option value="Fahrenheit"> Fahrenheit </option>
+                <option value="Celcius"> Celcius </option>
+                <option value="Kelvin"> Kelvin </option>
+            </select>
+        </div>
+        <div class="input">
+            <select id="myList2">
+                <option> ---Output Temperature Format--- </option>
+                <option value="Fahrenheit"> Fahrenheit </option>
+                <option value="Celcius"> Celcius </option>
+                <option value="Kelvin"> Kelvin </option>
+            </select>
+        </div>
+    </div>
+
+    <div class="sub">
+        <div class="hello">
+            <input type="number" id="n"><br><br>
+            <button class="btn" onclick="myFunction();">result</button><br><br>
+        </div>
+        <input type="text" id="result">
+    </div>
+    <script src="tempjs.jsx"></script>
+</body>
+
+</html>
